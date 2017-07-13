@@ -1,0 +1,27 @@
+================================================================================================
+							SOEN 6611 - SOFTWARE MEASUREMENT
+
+										SUMMER 2017
+================================================================================================
+
+Descriptive Statistics:-
+This is a system, called DESCRIPTIVE-STATISTICS, for finding mimimum, maximum, mode, median, mean,
+and standard deviation. The system should take as input a random number of data values and output its
+descriptive statistics. 
+
+Language Used:-
+Java(core).
+
+Algorithm Used for generation of random numbers:-
+A linear congruential generator (LCG) is an algorithm that yields a sequence of pseudo-randomized numbers calculated with 
+a discontinuous piecewise linear equation[see https://en.wikipedia.org/wiki/Linear_congruential_generator]
+
+Note for running program:-
+-Class Console represents main application and program execution starts from there.
+-Class DescriptiveStatisticsTest represents test suite for execution of tests.
+
+Extra Features:-
+-TUI(Console)
+-Test cases (12 test)
+-Javadoc (java 1.7)
+-Version control(SVN)
