@@ -3,14 +3,14 @@
     <description>Builds, tests, and runs projx</description>
     <property name="build.dir" value="./"/>
     <property name="src.dir" location="${build.dir}/src"/>
-    <property name="test.dir" location="${build.dir}/src/test"/>
-    <property name="test.htmlreports.dir" location="${build.dir}/src/test/htmlreports"/>
-    <property name="test.data.dir" location="${build.dir}/src/test/data"/>
+    <property name="test.dir" location="${build.dir}/test"/>
+    <property name="test.htmlreports.dir" location="${build.dir}/test/htmlreports"/>
+    <property name="test.data.dir" location="${build.dir}/test/data"/>
     <property name="junit.class.name" value="com.descriptivestatistics.test.DescriptiveStatisticsTest"/>
 
     <!-- Classpath to find java packages -->
     <path id="classpath.base">
-      <pathelement location="/opt/java/lib/" />
+      <pathelement location="/opt/java/lib/junit-4.10.jar" />
     </path>
 
     <!-- Classpath for tests to find src packages -->
