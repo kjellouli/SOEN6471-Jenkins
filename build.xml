@@ -6,7 +6,7 @@
     <property name="test.dir" location="${build.dir}/test"/>
     <property name="test.htmlreports.dir" location="${build.dir}/test/htmlreports"/>
     <property name="test.data.dir" location="${build.dir}/test/data"/>
-    <property name="junit.class.name" value="com.descriptivestatistics.test.DescriptiveStatisticsTest"/>
+    <property name="junit.class.name" value="test.DescriptiveStatisticsTest"/>
 
     <!-- Classpath to find java packages -->
     <path id="classpath.base">

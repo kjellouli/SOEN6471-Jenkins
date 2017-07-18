@@ -1,5 +1,3 @@
-package com.descriptivestatistics.test;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
