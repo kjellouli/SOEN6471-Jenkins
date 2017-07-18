@@ -10,7 +10,7 @@
 
     <!-- Classpath to find java packages -->
     <path id="classpath.base">
-      <pathelement location="/usr/java/latest/lib/tools.jar" />
+      <pathelement location="/opt/java/lib/" />
     </path>
 
     <!-- Classpath for tests to find src packages -->
