@@ -6,7 +6,7 @@
     <property name="test.dir" location="${build.dir}/test"/>
     <property name="test.htmlreports.dir" location="${build.dir}/test/htmlreports"/>
     <property name="test.data.dir" location="${build.dir}/test/data"/>
-    <property name="junit.class.name" value="test.DescriptiveStatisticsTest"/>
+    <property name="junit.class.name" value="DescriptiveStatisticsTest"/>
 
     <!-- Classpath to find java packages -->
     <path id="classpath.base">
@@ -20,7 +20,7 @@
 
     <path id="classpath.junittest">
        <path refid="classpath.base" />
-       <pathelement location="/usr/bin/junit" />
+       <pathelement location="/opt/java/lib/junit-4.10.jar" />
        <pathelement location="${test.dir}" />
     </path>
 
