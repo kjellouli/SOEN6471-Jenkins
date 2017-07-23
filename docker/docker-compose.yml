@@ -1,0 +1,32 @@
+version: '2'
+ 
+services:
+    soen6471-docker:
+        # hostname: soen6471
+        image: soen6471-docker
+        ports:
+            - 8080:8080
+            - 8081:8081
+            - 8082:8082
+        restart: always
+        # extra_hosts:
+            # - "soen6471:127.0.0.1"
+ 
+    nginx:
+        depends_on:
+            - soen6471-docker
+        image: nginx:alpine
+        restart: always
+ 
+    apache:
+        depends_on:
+            - soen6471-docker
+        image: httpd:alpine
+        restart: always
+
+    # livereload:
+    #     image: ocasta/livereload
+    #     ports:
+    #         - "35729:35729"
+    #     volumes:
+    #         - ./:/usr/src/livereload-watch
