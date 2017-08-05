@@ -14,3 +14,9 @@ docker stop $(docker ps -a -q) && docker build -t soen6471-docker . && docker-co
 
 # To run Jenkins server
 localhost:8080 in browser
+
+# To run SonarQube server
+localhost:8081 in browser
+
+# To run Coffee Shop Java Web App
+localhost:8082 in browser
