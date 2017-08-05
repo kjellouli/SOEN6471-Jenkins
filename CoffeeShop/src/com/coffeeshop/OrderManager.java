@@ -14,7 +14,7 @@ public class OrderManager  {
 	  {
 	  Session s =null;
 	     try{
-		 		sessionFactory = new Configuration().configure("com\\xmlFiles\\hibernate.cfg.xml").buildSessionFactory();
+		 		sessionFactory = new Configuration().configure("com/xmlFiles/hibernate.cfg.xml").buildSessionFactory();
 		 		s=sessionFactory.openSession();
 	 		}catch(HibernateException e){
 					throw e;

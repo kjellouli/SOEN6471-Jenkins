@@ -35,7 +35,7 @@
 		<property name="hibernate.dbcp.validationQuery">select 1</property>
 		<property name="hibernate.dbcp.testOnBorrow">true</property>
 		<property name="hibernate.dbcp.testOnReturn">true</property>
-		<mapping resource="\com\\xmlFiles\\Product.hbm.xml" />
-		<mapping resource="\com\\xmlFiles\\Order.hbm.xml" />
+		<mapping resource="/com/xmlFiles/Product.hbm.xml" />
+		<mapping resource="/com/xmlFiles/Order.hbm.xml" />
 	</session-factory>
 </hibernate-configuration>
