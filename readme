@@ -1,27 +1,12 @@
 ================================================================================================
-SOEN 6471 
-
-SUMMER 2017
+SOEN 6471 - SUMMER 2017
+Java Coffee Shop
+Microsoft
 ================================================================================================
 
-Descriptive Statistics:-
-This is a system, called DESCRIPTIVE-STATISTICS, for finding mimimum, maximum, mode, median, mean,
-and standard deviation. The system should take as input a random number of data values and output its
-descriptive statistics. 
+Get started developing Java websites with this ready-to-use Coffee Shop website application.
+This sample application allows a user to order a coffee beverage and will send an email to acknowledge the order.
 
-Language Used:-
-Java(core).
-
-Algorithm Used for generation of random numbers:-
-A linear congruential generator (LCG) is an algorithm that yields a sequence of pseudo-randomized numbers calculated with 
-a discontinuous piecewise linear equation[see https://en.wikipedia.org/wiki/Linear_congruential_generator]
-
-Note for running program:-
--Class Console represents main application and program execution starts from there.
--Class DescriptiveStatisticsTest represents test suite for execution of tests.
-
-Extra Features:-
--TUI(Console)
--Test cases (10 test)
--Javadoc (java 1.7)
--Version control(SVN)
+REFERENCES:
+https://azuremarketplace.microsoft.com/en-us/marketplace/apps/Microsoft.JavaCoffeeShop?tab=Overview
+https://github.com/Azure-Samples/app-service-web-java-get-started
